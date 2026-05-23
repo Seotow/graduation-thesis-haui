@@ -41,6 +41,11 @@ GraduationThesis/
 │   ├── 02_train_transformer.ipynb      # Huấn luyện Swin Transformer
 │   ├── 04_pipeline.ipynb               # Pipeline tích hợp hai mô hình
 │   └── 05_arcface.ipynb                # Thực nghiệm ArcFace embedding
+├── references/                         # Tài liệu nghiên cứu tham khảo (18 papers)
+│   ├── Attention Is All You Need in NeurIPS 2017.pdf
+│   ├── Swin Transformer Hierarchical Vision Transformer...pdf
+│   ├── Deep Learning in Agriculture A Survey.pdf
+│   └── ...
 ├── plant-care/                         # Ứng dụng hoàn chỉnh (submodule)
 ├── CNTT_2022600419_Nguyen_Trung_Hieu_Baocao.pdf   # Báo cáo khóa luận
 ├── CNTT_2022600419_Nguyen_Trung_Hieu_Poster.pdf   # Poster bảo vệ
@@ -63,6 +68,8 @@ Bao gồm:
 ---
 
 ## Tài liệu nghiên cứu
+
+Các paper tham khảo được lưu trong thư mục `references/`:
 
 | Tài liệu | Nội dung |
 |---|---|
