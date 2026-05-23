@@ -1,20 +1,23 @@
-# Khóa luận tốt nghiệp – Nhận diện bệnh cây trồng bằng học sâu
+# Đồ án tốt nghiệp – Nhận diện bệnh lúa bằng học sâu
 
 **Sinh viên:** Nguyễn Trung Hiếu – 2022600419  
 **Trường:** Đại học Công nghiệp Hà Nội  
+**Khoa:** Công nghệ Thông tin  
 **Ngành:** Công nghệ Thông tin  
-**Năm hoàn thành:** 2026
+**Năm bảo vệ:** 2026
 
 ---
 
 ## Đề tài
 
-Xây dựng hệ thống nhận diện bệnh lúa theo thời gian thực, kết hợp hai mô hình học sâu:
+**Xây dựng ứng dụng nhận diện bệnh lúa trên thiết bị di động sử dụng học sâu**
 
-- **YOLOv11** – phát hiện và định vị vùng bệnh trên lá lúa (object detection)
-- **Swin Transformer** – phân loại bệnh chính xác cao (image classification)
+Hệ thống kết hợp hai mô hình học sâu để nhận diện và phân loại bệnh trên lá lúa:
 
-Hệ thống hoạt động qua ứng dụng di động, cho phép nông dân chụp ảnh và nhận kết quả chẩn đoán ngay lập tức.
+- **YOLOv11** – phát hiện và định vị vùng bệnh (object detection)
+- **Swin Transformer** – phân loại loại bệnh từ vùng đã phát hiện (image classification)
+
+Kết quả được trả về qua ứng dụng di động, giúp người dùng chụp ảnh và nhận kết quả ngay lập tức.
 
 ---
 
@@ -47,9 +50,9 @@ GraduationThesis/
 │   ├── Deep Learning in Agriculture A Survey.pdf
 │   └── ...
 ├── plant-care/                         # Ứng dụng hoàn chỉnh (submodule)
-├── CNTT_2022600419_Nguyen_Trung_Hieu_Baocao.pdf   # Báo cáo khóa luận
-├── CNTT_2022600419_Nguyen_Trung_Hieu_Poster.pdf   # Poster bảo vệ
-├── Slide_NguyenTrungHieu.pptx          # Slide bảo vệ
+├── CNTT_2022600419_Nguyen_Trung_Hieu_Baocao.pdf   # Báo cáo đồ án tốt nghiệp
+├── CNTT_2022600419_Nguyen_Trung_Hieu_Poster.pdf   # Poster bảo vệ đồ án
+├── Slide_NguyenTrungHieu.pptx          # Slide bảo vệ đồ án
 └── README.md
 ```
 
@@ -103,12 +106,15 @@ git lfs pull
 
 ---
 
-## Kết quả
+## Tài liệu nộp
 
-- Độ chính xác phát hiện (mAP50): đạt kết quả tốt trên tập dữ liệu bệnh lúa
-- Pipeline kết hợp YOLO + Swin Transformer cải thiện độ chính xác phân loại
-- Ứng dụng di động hoạt động ổn định, cho kết quả thời gian thực
+| File | Mô tả |
+|---|---|
+| `CNTT_2022600419_Nguyen_Trung_Hieu_Baocao.pdf` | Báo cáo đồ án tốt nghiệp |
+| `CNTT_2022600419_Nguyen_Trung_Hieu_Poster.pdf` | Poster bảo vệ |
+| `Slide_NguyenTrungHieu.pptx` | Slide trình bày bảo vệ |
+| `Phiếu giao đề tài - Nguyễn Trung Hiếu.pdf` | Phiếu giao đề tài |
 
 ---
 
-*Đây là sản phẩm khóa luận tốt nghiệp năm 2026, được thực hiện dưới sự hướng dẫn của giảng viên Đại học Công nghiệp Hà Nội.*
+*Đồ án tốt nghiệp – Đại học Công nghiệp Hà Nội, năm học 2025–2026.*
