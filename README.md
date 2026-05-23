@@ -1,8 +1,7 @@
 # Đồ án tốt nghiệp – Nhận diện bệnh lúa bằng học sâu
 
 **Sinh viên:** Nguyễn Trung Hiếu – 2022600419  
-**Trường:** Đại học Công nghiệp Hà Nội  
-**Khoa:** Công nghệ Thông tin  
+**Trường:** Trường Công nghệ Thông tin và Truyền thông - Đại học Công nghiệp Hà Nội  
 **Ngành:** Công nghệ Thông tin  
 **Năm bảo vệ:** 2026
 
